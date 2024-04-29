@@ -1,1 +1,14 @@
 # TLE_convert
+- convert satellite two-line element(TLE) file into orbit parameters element
+- ## Input:
+  - complete file path
+- ## Output:
+  - orbit parameters elements :
+    - ### Satellite Number: satnum
+    - ### Semi-Major Axis: semi_major_axis
+    - ### Eccentricity: eccentricity
+    - ### Inclination: inclination
+    - ### RA of Ascending Node: RA_of_asc_node
+    - ### Argument of Perigee: Arg_of_perigee
+    - ### Mean Anomaly: Mean_anomaly
+    - ### Mean Motion: Mean_motion

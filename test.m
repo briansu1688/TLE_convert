@@ -1,4 +1,4 @@
-function [A0, satnum, a, ecc, Incl, Omega, w, M, n] = readtle(file, catalog)
+function readtle(file, catalog)
 
 % READTLE Read satellite ephemeris data from a NORAD two-line element (TLE) file.
 %
